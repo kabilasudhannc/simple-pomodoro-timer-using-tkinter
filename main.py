@@ -1,3 +1,4 @@
+from tkinter import *
 import math
 
 # ---------------------------- CONSTANTS ------------------------------- #
@@ -65,7 +66,6 @@ def count_down(count):
 
 
 # ---------------------------- UI SETUP ------------------------------- #
-from tkinter import *
 
 window = Tk()
 window.title('Pomodoro Timer')
